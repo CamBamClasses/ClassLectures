@@ -31,7 +31,6 @@ public:
 int main() {
   example1::doWork();
   example2::doWork();
-  doWork();
 
   try {
     doWork();
