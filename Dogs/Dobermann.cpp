@@ -2,8 +2,8 @@
 
 #include <iostream>
 
-Dobermann::Dobermann(std::string gender, std::string name)
-  : Dog(gender, name), m_angry(0)
+Dobermann::Dobermann(std::string gender, std::string name, int age)
+  : Dog(gender, name), m_angry(0), m_age(age)
 {
   std::cout << m_happiness << std::endl;
   std::cout << m_gender << " " << m_name << std::endl;

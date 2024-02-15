@@ -11,3 +11,7 @@ bool MyDobermann::willItBiteMe()
 {
   return false;
 }
+
+void MyDobermann::feed(int food) {
+  std::cout << "Thats good food, but it's not your food" << std::endl;
+}

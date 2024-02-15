@@ -8,7 +8,7 @@
 class Dobermann : public Dog
 {
 public:
-  Dobermann(std::string gender, std::string m_name);
+  Dobermann(std::string gender, std::string m_name, int age);
 
   virtual bool willItBiteMe();
 
@@ -16,6 +16,7 @@ public:
 
 
 private:
+  int m_age;
   double m_angry;
 };
 

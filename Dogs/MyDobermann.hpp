@@ -12,6 +12,7 @@ public:
 
  virtual bool willItBiteMe() override;
 
+ virtual void feed(int food) override;
 
 private:
   double m_angry;
