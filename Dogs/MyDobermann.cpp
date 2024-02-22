@@ -3,7 +3,7 @@
 #include <iostream>
 
 MyDobermann::MyDobermann(std::string gender, std::string name)
-  : Dobermann(gender, name), m_angry(0)
+  : Dobermann(gender, name, 5), m_angry(0)
 {
 }
 
